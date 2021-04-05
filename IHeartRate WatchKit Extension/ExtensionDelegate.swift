@@ -2,8 +2,7 @@
 //  ExtensionDelegate.swift
 //  IHeartRate WatchKit Extension
 //
-//  Created by Bryce Schmisseur on 1/23/20.
-//  Copyright © 2020 Bryce Schmisseur. All rights reserved.
+//  Created by Bryce Schmisseur on 2/3/21.
 //
 
 import WatchKit

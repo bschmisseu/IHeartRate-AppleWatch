@@ -2,25 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSExceptionDomains</key>
-		<dict>
-			<key>localhost:8888</key>
-			<dict>
-				<key>NSIncludesSubdomains</key>
-				<true/>
-				<key>NSExceptionAllowsInsecureHTTPLoads</key>
-				<true/>
-			</dict>
-		</dict>
-		<key>NSAllowsArbitraryLoads</key>
-		<true/>
-	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>IHeartRate WatchKit Extension</string>
+	<string>iHeartRate</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -35,26 +20,20 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
-	<key>LSApplicationCategoryType</key>
-	<string></string>
+	<key>CLKComplicationPrincipalClass</key>
+	<string>$(PRODUCT_MODULE_NAME).ComplicationController</string>
 	<key>NSExtension</key>
 	<dict>
 		<key>NSExtensionAttributes</key>
 		<dict>
 			<key>WKAppBundleIdentifier</key>
-			<string>GrandCanyonUniversity.IHeartRate.watchkitapp</string>
+			<string>BSchmisseur.IHeartRate.watchkitapp</string>
 		</dict>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.watchkit</string>
 	</dict>
-	<key>NSHealthShareUsageDescription</key>
-	<string>IHeartRate would like to access your health data in order to send it to the reporting application</string>
-	<key>NSHealthUpdateUsageDescription</key>
-	<string>IHeartRate would like to access your health data in order to send it to the reporting application</string>
 	<key>UIBackgroundModes</key>
-	<array>
-		<string>audio</string>
-	</array>
+	<array/>
 	<key>WKBackgroundModes</key>
 	<array>
 		<string>workout-processing</string>
@@ -63,5 +42,16 @@
 	<string>$(PRODUCT_MODULE_NAME).ExtensionDelegate</string>
 	<key>WKWatchOnly</key>
 	<true/>
+	<key>NSHealthShareUsageDescription</key>
+	<string>iHeartRate would like to share your heart rate to our web applicaiton.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>iHeartRate would like to update your heart rate to our web applicaiton.</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>WKWatchKitApp</key>
+		<true/>
+	</dict>
 </dict>
 </plist>

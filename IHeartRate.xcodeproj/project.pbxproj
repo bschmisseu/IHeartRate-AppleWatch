@@ -7,53 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE0D3B1023DA028200F75EC6 /* IHeartRate WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FE0D3B0F23DA028200F75EC6 /* IHeartRate WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		FE0D3B1623DA028200F75EC6 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0D3B1423DA028200F75EC6 /* Interface.storyboard */; };
-		FE0D3B1823DA028400F75EC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0D3B1723DA028400F75EC6 /* Assets.xcassets */; };
-		FE0D3B1F23DA028400F75EC6 /* IHeartRate WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FE0D3B1E23DA028400F75EC6 /* IHeartRate WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		FE0D3B2423DA028400F75EC6 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D3B2323DA028400F75EC6 /* InterfaceController.swift */; };
-		FE0D3B2623DA028400F75EC6 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D3B2523DA028400F75EC6 /* ExtensionDelegate.swift */; };
-		FE0D3B2823DA028400F75EC6 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D3B2723DA028400F75EC6 /* NotificationController.swift */; };
-		FE0D3B2A23DA028500F75EC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0D3B2923DA028500F75EC6 /* Assets.xcassets */; };
-		FE0D3B3D23DA0D6A00F75EC6 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0D3B3C23DA0D6A00F75EC6 /* HealthKit.framework */; };
+		FE7D757025CCFFBA0023EB44 /* HeartRateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7D756F25CCFFBA0023EB44 /* HeartRateService.swift */; };
+		FEC9B6CE25CF9CD100FC1FE5 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC9B6CD25CF9CD100FC1FE5 /* UserService.swift */; };
+		FED0E38625CFDC6500F95747 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED0E38525CFDC6500F95747 /* Session.swift */; };
+		FEDCD7AC25CB87E6001B7531 /* IHeartRate WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FEDCD7AB25CB87E6001B7531 /* IHeartRate WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FEDCD7B225CB87E6001B7531 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEDCD7B025CB87E6001B7531 /* Interface.storyboard */; };
+		FEDCD7B425CB87E9001B7531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEDCD7B325CB87E9001B7531 /* Assets.xcassets */; };
+		FEDCD7BB25CB87E9001B7531 /* IHeartRate WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FEDCD7BA25CB87E9001B7531 /* IHeartRate WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FEDCD7C025CB87E9001B7531 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDCD7BF25CB87E9001B7531 /* InterfaceController.swift */; };
+		FEDCD7C225CB87E9001B7531 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDCD7C125CB87E9001B7531 /* ExtensionDelegate.swift */; };
+		FEDCD7C425CB87E9001B7531 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDCD7C325CB87E9001B7531 /* NotificationController.swift */; };
+		FEDCD7C625CB87E9001B7531 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDCD7C525CB87E9001B7531 /* ComplicationController.swift */; };
+		FEDCD7C825CB87EC001B7531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEDCD7C725CB87EC001B7531 /* Assets.xcassets */; };
+		FEDCD7DE25CB8BD0001B7531 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDCD7DD25CB8BD0001B7531 /* HealthKit.framework */; };
+		FEDCD7EA25CB8DF1001B7531 /* HeartRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDCD7E925CB8DF1001B7531 /* HeartRate.swift */; };
+		FEDCD7FF25CBA2F5001B7531 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDCD7FE25CBA2F5001B7531 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FE0D3B1123DA028200F75EC6 /* PBXContainerItemProxy */ = {
+		FEDCD7AD25CB87E6001B7531 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FE0D3B0523DA028200F75EC6 /* Project object */;
+			containerPortal = FEDCD7A125CB87E6001B7531 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FE0D3B0E23DA028200F75EC6;
+			remoteGlobalIDString = FEDCD7AA25CB87E6001B7531;
 			remoteInfo = "IHeartRate WatchKit App";
 		};
-		FE0D3B2023DA028400F75EC6 /* PBXContainerItemProxy */ = {
+		FEDCD7BC25CB87E9001B7531 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FE0D3B0523DA028200F75EC6 /* Project object */;
+			containerPortal = FEDCD7A125CB87E6001B7531 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FE0D3B1D23DA028400F75EC6;
+			remoteGlobalIDString = FEDCD7B925CB87E9001B7531;
 			remoteInfo = "IHeartRate WatchKit Extension";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		FE0D3B3223DA028500F75EC6 /* Embed App Extensions */ = {
+		FEDCD7D025CB87EC001B7531 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				FE0D3B1F23DA028400F75EC6 /* IHeartRate WatchKit Extension.appex in Embed App Extensions */,
+				FEDCD7BB25CB87E9001B7531 /* IHeartRate WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE0D3B3623DA028500F75EC6 /* Embed Watch Content */ = {
+		FEDCD7D425CB87EC001B7531 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				FE0D3B1023DA028200F75EC6 /* IHeartRate WatchKit App.app in Embed Watch Content */,
+				FEDCD7AC25CB87E6001B7531 /* IHeartRate WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,130 +67,158 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FE0D3B0B23DA028200F75EC6 /* IHeartRate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IHeartRate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE0D3B0F23DA028200F75EC6 /* IHeartRate WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IHeartRate WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE0D3B1523DA028200F75EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		FE0D3B1723DA028400F75EC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FE0D3B1923DA028400F75EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE0D3B1E23DA028400F75EC6 /* IHeartRate WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "IHeartRate WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE0D3B2323DA028400F75EC6 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
-		FE0D3B2523DA028400F75EC6 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		FE0D3B2723DA028400F75EC6 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		FE0D3B2923DA028500F75EC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FE0D3B2B23DA028500F75EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE0D3B2C23DA028500F75EC6 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		FE0D3B3A23DA0D6A00F75EC6 /* IHeartRate WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "IHeartRate WatchKit Extension.entitlements"; sourceTree = "<group>"; };
-		FE0D3B3C23DA0D6A00F75EC6 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS6.1.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		FE7D756F25CCFFBA0023EB44 /* HeartRateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateService.swift; sourceTree = "<group>"; };
+		FEC9B6CD25CF9CD100FC1FE5 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		FED0E38525CFDC6500F95747 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		FEDCD7A725CB87E6001B7531 /* IHeartRate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IHeartRate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEDCD7AB25CB87E6001B7531 /* IHeartRate WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IHeartRate WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEDCD7B125CB87E6001B7531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FEDCD7B325CB87E9001B7531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEDCD7B525CB87E9001B7531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEDCD7BA25CB87E9001B7531 /* IHeartRate WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "IHeartRate WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEDCD7BF25CB87E9001B7531 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		FEDCD7C125CB87E9001B7531 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		FEDCD7C325CB87E9001B7531 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		FEDCD7C525CB87E9001B7531 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		FEDCD7C725CB87EC001B7531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEDCD7C925CB87EC001B7531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEDCD7CA25CB87EC001B7531 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		FEDCD7DB25CB8BD0001B7531 /* IHeartRate WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "IHeartRate WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		FEDCD7DD25CB8BD0001B7531 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		FEDCD7E925CB8DF1001B7531 /* HeartRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRate.swift; sourceTree = "<group>"; };
+		FEDCD7FE25CBA2F5001B7531 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FE0D3B1B23DA028400F75EC6 /* Frameworks */ = {
+		FEDCD7B725CB87E9001B7531 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE0D3B3D23DA0D6A00F75EC6 /* HealthKit.framework in Frameworks */,
+				FEDCD7DE25CB8BD0001B7531 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FE0D3B0423DA028200F75EC6 = {
+		FEDCD7A025CB87E6001B7531 = {
 			isa = PBXGroup;
 			children = (
-				FE0D3B1323DA028200F75EC6 /* IHeartRate WatchKit App */,
-				FE0D3B2223DA028400F75EC6 /* IHeartRate WatchKit Extension */,
-				FE0D3B0C23DA028200F75EC6 /* Products */,
-				FE0D3B3B23DA0D6A00F75EC6 /* Frameworks */,
+				FEDCD7AF25CB87E6001B7531 /* IHeartRate WatchKit App */,
+				FEDCD7BE25CB87E9001B7531 /* IHeartRate WatchKit Extension */,
+				FEDCD7A825CB87E6001B7531 /* Products */,
+				FEDCD7DC25CB8BD0001B7531 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		FE0D3B0C23DA028200F75EC6 /* Products */ = {
+		FEDCD7A825CB87E6001B7531 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FE0D3B0B23DA028200F75EC6 /* IHeartRate.app */,
-				FE0D3B0F23DA028200F75EC6 /* IHeartRate WatchKit App.app */,
-				FE0D3B1E23DA028400F75EC6 /* IHeartRate WatchKit Extension.appex */,
+				FEDCD7A725CB87E6001B7531 /* IHeartRate.app */,
+				FEDCD7AB25CB87E6001B7531 /* IHeartRate WatchKit App.app */,
+				FEDCD7BA25CB87E9001B7531 /* IHeartRate WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FE0D3B1323DA028200F75EC6 /* IHeartRate WatchKit App */ = {
+		FEDCD7AF25CB87E6001B7531 /* IHeartRate WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				FE0D3B1423DA028200F75EC6 /* Interface.storyboard */,
-				FE0D3B1723DA028400F75EC6 /* Assets.xcassets */,
-				FE0D3B1923DA028400F75EC6 /* Info.plist */,
+				FEDCD7B025CB87E6001B7531 /* Interface.storyboard */,
+				FEDCD7B325CB87E9001B7531 /* Assets.xcassets */,
+				FEDCD7B525CB87E9001B7531 /* Info.plist */,
 			);
 			path = "IHeartRate WatchKit App";
 			sourceTree = "<group>";
 		};
-		FE0D3B2223DA028400F75EC6 /* IHeartRate WatchKit Extension */ = {
+		FEDCD7BE25CB87E9001B7531 /* IHeartRate WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				FE0D3B3A23DA0D6A00F75EC6 /* IHeartRate WatchKit Extension.entitlements */,
-				FE0D3B2323DA028400F75EC6 /* InterfaceController.swift */,
-				FE0D3B2523DA028400F75EC6 /* ExtensionDelegate.swift */,
-				FE0D3B2723DA028400F75EC6 /* NotificationController.swift */,
-				FE0D3B2923DA028500F75EC6 /* Assets.xcassets */,
-				FE0D3B2B23DA028500F75EC6 /* Info.plist */,
-				FE0D3B2C23DA028500F75EC6 /* PushNotificationPayload.apns */,
+				FEDCD7E325CB8C12001B7531 /* Services */,
+				FEDCD7E225CB8BFD001B7531 /* Models */,
+				FEDCD7DB25CB8BD0001B7531 /* IHeartRate WatchKit Extension.entitlements */,
+				FEDCD7BF25CB87E9001B7531 /* InterfaceController.swift */,
+				FEDCD7C125CB87E9001B7531 /* ExtensionDelegate.swift */,
+				FEDCD7C325CB87E9001B7531 /* NotificationController.swift */,
+				FEDCD7C525CB87E9001B7531 /* ComplicationController.swift */,
+				FEDCD7C725CB87EC001B7531 /* Assets.xcassets */,
+				FEDCD7C925CB87EC001B7531 /* Info.plist */,
+				FEDCD7CA25CB87EC001B7531 /* PushNotificationPayload.apns */,
 			);
 			path = "IHeartRate WatchKit Extension";
 			sourceTree = "<group>";
 		};
-		FE0D3B3B23DA0D6A00F75EC6 /* Frameworks */ = {
+		FEDCD7DC25CB8BD0001B7531 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FE0D3B3C23DA0D6A00F75EC6 /* HealthKit.framework */,
+				FEDCD7DD25CB8BD0001B7531 /* HealthKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEDCD7E225CB8BFD001B7531 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FED0E38525CFDC6500F95747 /* Session.swift */,
+				FEDCD7E925CB8DF1001B7531 /* HeartRate.swift */,
+				FEDCD7FE25CBA2F5001B7531 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FEDCD7E325CB8C12001B7531 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FE7D756F25CCFFBA0023EB44 /* HeartRateService.swift */,
+				FEC9B6CD25CF9CD100FC1FE5 /* UserService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FE0D3B0A23DA028200F75EC6 /* IHeartRate */ = {
+		FEDCD7A625CB87E6001B7531 /* IHeartRate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE0D3B3723DA028500F75EC6 /* Build configuration list for PBXNativeTarget "IHeartRate" */;
+			buildConfigurationList = FEDCD7D525CB87EC001B7531 /* Build configuration list for PBXNativeTarget "IHeartRate" */;
 			buildPhases = (
-				FE0D3B0923DA028200F75EC6 /* Resources */,
-				FE0D3B3623DA028500F75EC6 /* Embed Watch Content */,
+				FEDCD7A525CB87E6001B7531 /* Resources */,
+				FEDCD7D425CB87EC001B7531 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FE0D3B1223DA028200F75EC6 /* PBXTargetDependency */,
+				FEDCD7AE25CB87E6001B7531 /* PBXTargetDependency */,
 			);
 			name = IHeartRate;
 			productName = IHeartRate;
-			productReference = FE0D3B0B23DA028200F75EC6 /* IHeartRate.app */;
+			productReference = FEDCD7A725CB87E6001B7531 /* IHeartRate.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		FE0D3B0E23DA028200F75EC6 /* IHeartRate WatchKit App */ = {
+		FEDCD7AA25CB87E6001B7531 /* IHeartRate WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE0D3B3323DA028500F75EC6 /* Build configuration list for PBXNativeTarget "IHeartRate WatchKit App" */;
+			buildConfigurationList = FEDCD7D125CB87EC001B7531 /* Build configuration list for PBXNativeTarget "IHeartRate WatchKit App" */;
 			buildPhases = (
-				FE0D3B0D23DA028200F75EC6 /* Resources */,
-				FE0D3B3223DA028500F75EC6 /* Embed App Extensions */,
+				FEDCD7A925CB87E6001B7531 /* Resources */,
+				FEDCD7D025CB87EC001B7531 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FE0D3B2123DA028400F75EC6 /* PBXTargetDependency */,
+				FEDCD7BD25CB87E9001B7531 /* PBXTargetDependency */,
 			);
 			name = "IHeartRate WatchKit App";
 			productName = "IHeartRate WatchKit App";
-			productReference = FE0D3B0F23DA028200F75EC6 /* IHeartRate WatchKit App.app */;
+			productReference = FEDCD7AB25CB87E6001B7531 /* IHeartRate WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		FE0D3B1D23DA028400F75EC6 /* IHeartRate WatchKit Extension */ = {
+		FEDCD7B925CB87E9001B7531 /* IHeartRate WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE0D3B2F23DA028500F75EC6 /* Build configuration list for PBXNativeTarget "IHeartRate WatchKit Extension" */;
+			buildConfigurationList = FEDCD7CD25CB87EC001B7531 /* Build configuration list for PBXNativeTarget "IHeartRate WatchKit Extension" */;
 			buildPhases = (
-				FE0D3B1A23DA028400F75EC6 /* Sources */,
-				FE0D3B1B23DA028400F75EC6 /* Frameworks */,
-				FE0D3B1C23DA028400F75EC6 /* Resources */,
+				FEDCD7B625CB87E9001B7531 /* Sources */,
+				FEDCD7B725CB87E9001B7531 /* Frameworks */,
+				FEDCD7B825CB87E9001B7531 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -192,31 +226,30 @@
 			);
 			name = "IHeartRate WatchKit Extension";
 			productName = "IHeartRate WatchKit Extension";
-			productReference = FE0D3B1E23DA028400F75EC6 /* IHeartRate WatchKit Extension.appex */;
+			productReference = FEDCD7BA25CB87E9001B7531 /* IHeartRate WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FE0D3B0523DA028200F75EC6 /* Project object */ = {
+		FEDCD7A125CB87E6001B7531 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
-				ORGANIZATIONNAME = "Bryce Schmisseur";
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
 				TargetAttributes = {
-					FE0D3B0A23DA028200F75EC6 = {
-						CreatedOnToolsVersion = 11.3.1;
+					FEDCD7A625CB87E6001B7531 = {
+						CreatedOnToolsVersion = 12.1;
 					};
-					FE0D3B0E23DA028200F75EC6 = {
-						CreatedOnToolsVersion = 11.3.1;
+					FEDCD7AA25CB87E6001B7531 = {
+						CreatedOnToolsVersion = 12.1;
 					};
-					FE0D3B1D23DA028400F75EC6 = {
-						CreatedOnToolsVersion = 11.3.1;
+					FEDCD7B925CB87E9001B7531 = {
+						CreatedOnToolsVersion = 12.1;
 					};
 				};
 			};
-			buildConfigurationList = FE0D3B0823DA028200F75EC6 /* Build configuration list for PBXProject "IHeartRate" */;
+			buildConfigurationList = FEDCD7A425CB87E6001B7531 /* Build configuration list for PBXProject "IHeartRate" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -224,76 +257,82 @@
 				en,
 				Base,
 			);
-			mainGroup = FE0D3B0423DA028200F75EC6;
-			productRefGroup = FE0D3B0C23DA028200F75EC6 /* Products */;
+			mainGroup = FEDCD7A025CB87E6001B7531;
+			productRefGroup = FEDCD7A825CB87E6001B7531 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FE0D3B0A23DA028200F75EC6 /* IHeartRate */,
-				FE0D3B0E23DA028200F75EC6 /* IHeartRate WatchKit App */,
-				FE0D3B1D23DA028400F75EC6 /* IHeartRate WatchKit Extension */,
+				FEDCD7A625CB87E6001B7531 /* IHeartRate */,
+				FEDCD7AA25CB87E6001B7531 /* IHeartRate WatchKit App */,
+				FEDCD7B925CB87E9001B7531 /* IHeartRate WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FE0D3B0923DA028200F75EC6 /* Resources */ = {
+		FEDCD7A525CB87E6001B7531 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE0D3B0D23DA028200F75EC6 /* Resources */ = {
+		FEDCD7A925CB87E6001B7531 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE0D3B1823DA028400F75EC6 /* Assets.xcassets in Resources */,
-				FE0D3B1623DA028200F75EC6 /* Interface.storyboard in Resources */,
+				FEDCD7B425CB87E9001B7531 /* Assets.xcassets in Resources */,
+				FEDCD7B225CB87E6001B7531 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE0D3B1C23DA028400F75EC6 /* Resources */ = {
+		FEDCD7B825CB87E9001B7531 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE0D3B2A23DA028500F75EC6 /* Assets.xcassets in Resources */,
+				FEDCD7C825CB87EC001B7531 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FE0D3B1A23DA028400F75EC6 /* Sources */ = {
+		FEDCD7B625CB87E9001B7531 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE0D3B2823DA028400F75EC6 /* NotificationController.swift in Sources */,
-				FE0D3B2623DA028400F75EC6 /* ExtensionDelegate.swift in Sources */,
-				FE0D3B2423DA028400F75EC6 /* InterfaceController.swift in Sources */,
+				FEDCD7C425CB87E9001B7531 /* NotificationController.swift in Sources */,
+				FEDCD7C625CB87E9001B7531 /* ComplicationController.swift in Sources */,
+				FEDCD7FF25CBA2F5001B7531 /* User.swift in Sources */,
+				FE7D757025CCFFBA0023EB44 /* HeartRateService.swift in Sources */,
+				FEC9B6CE25CF9CD100FC1FE5 /* UserService.swift in Sources */,
+				FEDCD7C225CB87E9001B7531 /* ExtensionDelegate.swift in Sources */,
+				FEDCD7C025CB87E9001B7531 /* InterfaceController.swift in Sources */,
+				FEDCD7EA25CB8DF1001B7531 /* HeartRate.swift in Sources */,
+				FED0E38625CFDC6500F95747 /* Session.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FE0D3B1223DA028200F75EC6 /* PBXTargetDependency */ = {
+		FEDCD7AE25CB87E6001B7531 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FE0D3B0E23DA028200F75EC6 /* IHeartRate WatchKit App */;
-			targetProxy = FE0D3B1123DA028200F75EC6 /* PBXContainerItemProxy */;
+			target = FEDCD7AA25CB87E6001B7531 /* IHeartRate WatchKit App */;
+			targetProxy = FEDCD7AD25CB87E6001B7531 /* PBXContainerItemProxy */;
 		};
-		FE0D3B2123DA028400F75EC6 /* PBXTargetDependency */ = {
+		FEDCD7BD25CB87E9001B7531 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FE0D3B1D23DA028400F75EC6 /* IHeartRate WatchKit Extension */;
-			targetProxy = FE0D3B2023DA028400F75EC6 /* PBXContainerItemProxy */;
+			target = FEDCD7B925CB87E9001B7531 /* IHeartRate WatchKit Extension */;
+			targetProxy = FEDCD7BC25CB87E9001B7531 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FE0D3B1423DA028200F75EC6 /* Interface.storyboard */ = {
+		FEDCD7B025CB87E6001B7531 /* Interface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FE0D3B1523DA028200F75EC6 /* Base */,
+				FEDCD7B125CB87E6001B7531 /* Base */,
 			);
 			name = Interface.storyboard;
 			sourceTree = "<group>";
@@ -301,7 +340,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FE0D3B2D23DA028500F75EC6 /* Debug */ = {
+		FEDCD7CB25CB87EC001B7531 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -327,6 +366,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -360,7 +400,7 @@
 			};
 			name = Debug;
 		};
-		FE0D3B2E23DA028500F75EC6 /* Release */ = {
+		FEDCD7CC25CB87EC001B7531 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -386,6 +426,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -413,10 +454,11 @@
 			};
 			name = Release;
 		};
-		FE0D3B3023DA028500F75EC6 /* Debug */ = {
+		FEDCD7CE25CB87EC001B7531 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
 				CODE_SIGN_ENTITLEMENTS = "IHeartRate WatchKit Extension/IHeartRate WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7D59N8HT2R;
@@ -426,20 +468,21 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = GrandCanyonUniversity.IHeartRate.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = BSchmisseur.IHeartRate.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Debug;
 		};
-		FE0D3B3123DA028500F75EC6 /* Release */ = {
+		FEDCD7CF25CB87EC001B7531 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
 				CODE_SIGN_ENTITLEMENTS = "IHeartRate WatchKit Extension/IHeartRate WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7D59N8HT2R;
@@ -449,76 +492,80 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = GrandCanyonUniversity.IHeartRate.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = BSchmisseur.IHeartRate.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Release;
 		};
-		FE0D3B3423DA028500F75EC6 /* Debug */ = {
+		FEDCD7D225CB87EC001B7531 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7D59N8HT2R;
 				IBSC_MODULE = IHeartRate_WatchKit_Extension;
 				INFOPLIST_FILE = "IHeartRate WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = GrandCanyonUniversity.IHeartRate.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = BSchmisseur.IHeartRate.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Debug;
 		};
-		FE0D3B3523DA028500F75EC6 /* Release */ = {
+		FEDCD7D325CB87EC001B7531 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7D59N8HT2R;
 				IBSC_MODULE = IHeartRate_WatchKit_Extension;
 				INFOPLIST_FILE = "IHeartRate WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = GrandCanyonUniversity.IHeartRate.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = BSchmisseur.IHeartRate.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Release;
 		};
-		FE0D3B3823DA028500F75EC6 /* Debug */ = {
+		FEDCD7D625CB87EC001B7531 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7D59N8HT2R;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = GrandCanyonUniversity.IHeartRate;
-				PRODUCT_NAME = IHeartRate;
+				PRODUCT_BUNDLE_IDENTIFIER = BSchmisseur.IHeartRate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		FE0D3B3923DA028500F75EC6 /* Release */ = {
+		FEDCD7D725CB87EC001B7531 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7D59N8HT2R;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = GrandCanyonUniversity.IHeartRate;
-				PRODUCT_NAME = IHeartRate;
+				PRODUCT_BUNDLE_IDENTIFIER = BSchmisseur.IHeartRate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -526,43 +573,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FE0D3B0823DA028200F75EC6 /* Build configuration list for PBXProject "IHeartRate" */ = {
+		FEDCD7A425CB87E6001B7531 /* Build configuration list for PBXProject "IHeartRate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE0D3B2D23DA028500F75EC6 /* Debug */,
-				FE0D3B2E23DA028500F75EC6 /* Release */,
+				FEDCD7CB25CB87EC001B7531 /* Debug */,
+				FEDCD7CC25CB87EC001B7531 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FE0D3B2F23DA028500F75EC6 /* Build configuration list for PBXNativeTarget "IHeartRate WatchKit Extension" */ = {
+		FEDCD7CD25CB87EC001B7531 /* Build configuration list for PBXNativeTarget "IHeartRate WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE0D3B3023DA028500F75EC6 /* Debug */,
-				FE0D3B3123DA028500F75EC6 /* Release */,
+				FEDCD7CE25CB87EC001B7531 /* Debug */,
+				FEDCD7CF25CB87EC001B7531 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FE0D3B3323DA028500F75EC6 /* Build configuration list for PBXNativeTarget "IHeartRate WatchKit App" */ = {
+		FEDCD7D125CB87EC001B7531 /* Build configuration list for PBXNativeTarget "IHeartRate WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE0D3B3423DA028500F75EC6 /* Debug */,
-				FE0D3B3523DA028500F75EC6 /* Release */,
+				FEDCD7D225CB87EC001B7531 /* Debug */,
+				FEDCD7D325CB87EC001B7531 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FE0D3B3723DA028500F75EC6 /* Build configuration list for PBXNativeTarget "IHeartRate" */ = {
+		FEDCD7D525CB87EC001B7531 /* Build configuration list for PBXNativeTarget "IHeartRate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE0D3B3823DA028500F75EC6 /* Debug */,
-				FE0D3B3923DA028500F75EC6 /* Release */,
+				FEDCD7D625CB87EC001B7531 /* Debug */,
+				FEDCD7D725CB87EC001B7531 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FE0D3B0523DA028200F75EC6 /* Project object */;
+	rootObject = FEDCD7A125CB87E6001B7531 /* Project object */;
 }
